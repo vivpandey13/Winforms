@@ -13,7 +13,6 @@ namespace My_Explorer
         public Form1()
         {
             InitializeComponent();
-
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
