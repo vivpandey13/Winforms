@@ -13,12 +13,12 @@ namespace My_Explorer
         public Form1()
         {
             InitializeComponent();
-            
+
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,7 +28,7 @@ namespace My_Explorer
             {
                 string folderName = this.folderBrowserDialog1.SelectedPath;
                 ManageFolder(folderName);
-            }            
+            }
         }
 
         private void ManageFolder(string folderName)
@@ -96,7 +96,7 @@ namespace My_Explorer
                     Process.Start(directoryName);
                 }
             }
-            
+
         }
     }
 }
